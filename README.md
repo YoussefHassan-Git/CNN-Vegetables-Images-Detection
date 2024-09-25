@@ -45,11 +45,10 @@ Each category contains multiple images for training, validation, and testing pur
 
 The model architecture is built using CNN layers to process the images. The architecture consists of:
 
-- **Convolutional Layers**: Extracting features from input images
-- **Max Pooling Layers**: Reducing dimensionality and computational load
-- **Dropout Layers**: To avoid overfitting
-- **Fully Connected Layers**: For classification into 15 categories
-- **Softmax Activation**: For multi-class classification
+- **Convolutional Layers**: Extracting features from input images (2 Layers).
+- **Max Pooling Layers**: Reducing dimensionality and computational load (2 Layers).
+- **Fully Connected Layers**: For classification into 15 categories (3 Layers).
+- **Softmax Activation**: For multi-class classification (1 Layer).
 
 ## Data Preprocessing
 
