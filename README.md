@@ -81,7 +81,7 @@ The model performed well on the validation dataset. Below are the overall result
 | Potato           | 98%      | 0.97     |
 
 ## Graphs and Performance
----
+
 Training, Validation Loss Graph:
 
 ![4dcfe631-b492-4760-817f-cb55c50d3855](https://github.com/user-attachments/assets/a403ebf7-6c09-4639-b2c9-42af40d8c319)
