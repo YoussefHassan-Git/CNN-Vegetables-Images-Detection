@@ -16,7 +16,6 @@ This repository contains the implementation of a Convolutional Neural Network (C
 
 This project is designed to classify 15 different types of vegetables using a CNN model. By applying deep learning techniques, the model identifies vegetables like **tomato**, **carrot**, **potato**, etc., from a collection of images with high accuracy.
 
-![Vegetable Categories](./path/to/your/image/1528207b-d665-47b5-bc40-e1ac203b2b73.png)
 
 ## Dataset
 
@@ -64,11 +63,10 @@ Before feeding the images into the model:
 The model was trained with:
 - **Optimizer**: Adam
 - **Loss Function**: Categorical Cross-Entropy
-- **Metrics**: Accuracy, Precision, Recall, F1-score
+- **Metrics**: Accuracy, Loss, F1-Score
 - **Training/Validation Split**: 80/20
-- **Epochs**: 50
+- **Epochs**: 10
 
-We used early stopping to prevent overfitting and a learning rate scheduler to optimize the training process.
 
 ## Results
 
