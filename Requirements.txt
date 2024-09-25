@@ -1,0 +1,20 @@
+## Requirements, Those Version would work
+tensorflow==2.12.0
+keras==2.12.0
+numpy==1.24.3
+opencv-python==4.7.0.72
+matplotlib==3.7.1
+pillow==9.5.0
+scikit-learn==1.2.2
+seaborn==0.12.2
+h5py==3.9.0
+
+tensorflow: The core library for building and training the CNN model.
+keras: High-level API for defining the model architecture.
+numpy: For numerical operations and handling matrix data.
+opencv-python: For image processing (resizing, augmenting).
+matplotlib: For visualizing graphs like accuracy, loss plots.
+pillow: To handle image data loading and manipulation.
+scikit-learn: For metrics, confusion matrix, and classification reports.
+seaborn: To plot the confusion matrix and enhance the visuals.
+h5py: For saving and loading model weights in .h5 format.
